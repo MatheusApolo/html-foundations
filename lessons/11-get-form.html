@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição 11 | Formulário GET</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a class="back-link" href="../index.html">← Voltar às lições</a>
+        <h1>Formulário com método GET</h1>
+        <p class="lead">Adequado para buscas e filtros que podem aparecer na URL.</p>
+    </header>
+    <main>
+        <form class="example" action="/search" method="get">
+            <label for="search">Termo de busca</label>
+            <input id="search" name="q" type="search" required>
+
+            <label for="category">Categoria</label>
+            <input id="category" name="category" type="text">
+
+            <button type="submit">Pesquisar</button>
+        </form>
+        <p class="note">Exemplo acadêmico: os valores são adicionados à URL, mas não existe backend conectado.</p>
+    </main>
+    <footer>Lição 11 de 12.</footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição 10 | Layout semântico</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a class="back-link" href="../index.html">← Voltar às lições</a>
+        <h1>Layout semântico</h1>
+        <p class="lead">Elementos que comunicam a função de cada região da página.</p>
+        <nav aria-label="Navegação da página">
+            <ul>
+                <li><a href="#section">Section</a></li>
+                <li><a href="#article">Article</a></li>
+                <li><a href="#aside">Aside</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section" class="example">
+            <h2>Section</h2>
+            <p>Agrupa conteúdo relacionado a um mesmo tema.</p>
+
+            <article id="article">
+                <h3>Article</h3>
+                <p>Representa um conteúdo independente e reutilizável, como uma notícia ou publicação.</p>
+            </article>
+        </section>
+
+        <aside id="aside" class="example">
+            <h2>Aside</h2>
+            <p>Apresenta informação complementar ao conteúdo principal.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>O footer contém informações finais sobre a página ou seção.</p>
+    </footer>
+</body>
+</html>
+

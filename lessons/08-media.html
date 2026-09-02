@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição 08 | Mídias</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a class="back-link" href="../index.html">← Voltar às lições</a>
+        <h1>Imagens, vídeo e iframe</h1>
+    </header>
+    <main>
+        <section class="example">
+            <figure>
+                <img
+                    src="../assets/media-placeholder.svg"
+                    alt="Ilustração de montanhas azuis sob um céu claro"
+                    width="800"
+                    height="450">
+                <figcaption>Imagem local com texto alternativo e legenda.</figcaption>
+            </figure>
+
+            <figure>
+                <video controls width="640" preload="metadata">
+                    <source
+                        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                        type="video/mp4">
+                    Seu navegador não suporta vídeo HTML5.
+                </video>
+                <figcaption>Vídeo de demonstração disponibilizado para exemplos web.</figcaption>
+            </figure>
+
+            <h2>Documento incorporado</h2>
+            <iframe
+                title="Exemplo de conteúdo incorporado"
+                srcdoc="<h1>Conteúdo do iframe</h1><p>Este documento foi definido com o atributo srcdoc.</p>">
+            </iframe>
+        </section>
+    </main>
+    <footer>Lição 08 de 12.</footer>
+</body>
+</html>
+

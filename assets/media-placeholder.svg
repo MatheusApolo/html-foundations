@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title description">
+  <title id="title">Paisagem ilustrada</title>
+  <desc id="description">Montanhas azuis sob um céu claro, usadas como exemplo de imagem local.</desc>
+  <rect width="800" height="450" fill="#eef2ff"/>
+  <circle cx="650" cy="105" r="55" fill="#f2c94c"/>
+  <path d="M0 390 220 155 420 390Z" fill="#5a7fd8"/>
+  <path d="M235 390 500 115 800 390Z" fill="#234a9f"/>
+  <path d="m425 194 75-79 86 90-45-22-41 35-36-39Z" fill="#fff"/>
+  <rect y="390" width="800" height="60" fill="#8db596"/>
+</svg>
