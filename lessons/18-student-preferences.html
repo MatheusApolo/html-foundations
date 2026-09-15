@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição 18 | Preferências do aluno</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a class="back-link" href="../index.html">← Voltar às lições</a>
+        <h1>Preferências do aluno</h1>
+        <p class="lead">Exercício com seleção de cor, caixas de marcação, botões de opção, lista e intervalo.</p>
+    </header>
+    <main>
+        <form class="example" action="#" method="post">
+            <fieldset>
+                <legend>Preferências do aluno</legend>
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" autocomplete="name">
+
+                <label for="cor">Cor favorita</label>
+                <input id="cor" name="cor" type="color" value="#2457d6">
+
+                <p>Disciplinas de interesse</p>
+                <div class="options">
+                    <label><input type="checkbox" name="disciplina" value="html"> HTML</label>
+                    <label><input type="checkbox" name="disciplina" value="banco-de-dados"> Banco de Dados</label>
+                    <label><input type="checkbox" name="disciplina" value="programacao"> Programação</label>
+                </div>
+
+                <p>Turno preferido</p>
+                <div class="options">
+                    <label><input type="radio" name="turno" value="manha"> Manhã</label>
+                    <label><input type="radio" name="turno" value="tarde"> Tarde</label>
+                    <label><input type="radio" name="turno" value="noite"> Noite</label>
+                </div>
+
+                <label for="curso">Curso favorito</label>
+                <select id="curso" name="curso">
+                    <option value="">Selecione</option>
+                    <option value="sistemas-de-informacao">Sistemas de Informação</option>
+                    <option value="ciencia-da-computacao">Ciência da Computação</option>
+                    <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                </select>
+
+                <label for="interesse-html">Nível de interesse em HTML</label>
+                <input id="interesse-html" name="interesse_html" type="range" min="0" max="10" step="1" value="5">
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>Lição 18 de 19.</footer>
+</body>
+</html>
