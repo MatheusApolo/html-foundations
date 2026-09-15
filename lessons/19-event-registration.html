@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição 19 | Inscrição em evento</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a class="back-link" href="../index.html">← Voltar às lições</a>
+        <h1>Inscrição em evento</h1>
+        <p class="lead">Formulário completo com validações, preferências e diferentes tipos de entrada.</p>
+    </header>
+    <main>
+        <form class="example" action="#" method="post">
+            <fieldset>
+                <legend>Inscrição no evento</legend>
+                <label for="nome">Nome completo</label>
+                <input id="nome" name="nome" type="text" autocomplete="name" required>
+
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+
+                <label for="idade">Idade</label>
+                <input id="idade" name="idade" type="number" min="14" max="100" required>
+
+                <label for="data-evento">Data do evento</label>
+                <input id="data-evento" name="data_evento" type="date" min="2026-09-16" required>
+
+                <label for="horario">Horário preferido</label>
+                <input id="horario" name="horario" type="time">
+
+                <p>Modalidade do evento</p>
+                <div class="options">
+                    <label><input type="radio" name="modalidade" value="presencial" required> Presencial</label>
+                    <label><input type="radio" name="modalidade" value="online"> Online</label>
+                </div>
+
+                <p>Áreas de interesse</p>
+                <div class="options">
+                    <label><input type="checkbox" name="area" value="programacao"> Programação</label>
+                    <label><input type="checkbox" name="area" value="banco-de-dados"> Banco de Dados</label>
+                    <label><input type="checkbox" name="area" value="redes"> Redes</label>
+                </div>
+
+                <label for="regiao">Região</label>
+                <select id="regiao" name="regiao">
+                    <option value="">Selecione</option>
+                    <option value="centro-oeste">Centro-Oeste</option>
+                    <option value="nordeste">Nordeste</option>
+                    <option value="norte">Norte</option>
+                    <option value="sudeste">Sudeste</option>
+                    <option value="sul">Sul</option>
+                </select>
+
+                <label for="cor-cracha">Cor do crachá</label>
+                <input id="cor-cracha" name="cor_cracha" type="color" value="#2457d6">
+
+                <label for="expectativa">Nível de expectativa</label>
+                <input id="expectativa" name="expectativa" type="range" min="0" max="10" step="1" value="5">
+            </fieldset>
+
+            <div class="actions">
+                <button type="submit">Enviar</button>
+                <button class="secondary" type="reset">Limpar</button>
+            </div>
+        </form>
+    </main>
+    <footer>Lição 19 de 19.</footer>
+</body>
+</html>
