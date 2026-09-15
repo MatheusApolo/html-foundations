@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição 16 | Perfil profissional</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a class="back-link" href="../index.html">← Voltar às lições</a>
+        <h1>Perfil profissional</h1>
+        <p class="lead">Formulário com dados pessoais, natureza do cargo e áreas de interesse.</p>
+    </header>
+    <main>
+        <form class="example" action="#" method="post">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" maxlength="50" autocomplete="name" required autofocus>
+
+                <label for="endereco">Endereço</label>
+                <input id="endereco" name="endereco" type="text" autocomplete="street-address">
+
+                <label for="cidade">Cidade</label>
+                <input id="cidade" name="cidade" type="text" autocomplete="address-level2">
+
+                <label for="estado">Estado</label>
+                <select id="estado" name="estado" autocomplete="address-level1">
+                    <option value="">Selecione</option>
+                    <option value="GO">Goiás</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="BA">Bahia</option>
+                    <option value="AM">Amazonas</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                <p>Natureza do cargo</p>
+                <div class="options">
+                    <label><input type="radio" name="cargo" value="gerencia"> Gerência</label>
+                    <label><input type="radio" name="cargo" value="financeiro"> Financeiro</label>
+                    <label><input type="radio" name="cargo" value="recepcao"> Recepção</label>
+                    <label><input type="radio" name="cargo" value="administrativo"> Administrativo</label>
+                    <label><input type="radio" name="cargo" value="juridico"> Jurídico</label>
+                </div>
+
+                <p>Áreas de interesse</p>
+                <div class="options">
+                    <label><input type="checkbox" name="area_interesse" value="computacao"> Computação</label>
+                    <label><input type="checkbox" name="area_interesse" value="biologia"> Biologia</label>
+                    <label><input type="checkbox" name="area_interesse" value="meio-ambiente"> Meio ambiente</label>
+                    <label><input type="checkbox" name="area_interesse" value="engenharia"> Engenharia</label>
+                    <label><input type="checkbox" name="area_interesse" value="historia"> História</label>
+                </div>
+
+                <label for="minicurriculo">Minicurrículo</label>
+                <textarea id="minicurriculo" name="minicurriculo" rows="6"></textarea>
+            </fieldset>
+
+            <div class="actions">
+                <button type="submit">Cadastrar</button>
+                <button class="secondary" type="reset">Limpar</button>
+            </div>
+        </form>
+    </main>
+    <footer>Lição 16 de 19.</footer>
+</body>
+</html>
