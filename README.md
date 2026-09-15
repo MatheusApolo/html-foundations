@@ -4,26 +4,22 @@
 
 ## Português
 
-Sequência de exercícios acadêmicos revisados para documentar a evolução dos fundamentos de HTML. As lições partem da estrutura básica de um documento e avançam até semântica, mídias, tabelas e formulários.
+Sequência de exercícios acadêmicos revisados para documentar a evolução dos fundamentos de HTML. As 19 lições partem da estrutura básica de um documento e avançam até semântica, mídias, tabelas, formulários, validação nativa e acessibilidade.
 
-### Lições
+### Conteúdo
 
-1. Estrutura básica
-2. Títulos e parágrafos
-3. Metadados e organização do documento
-4. Semântica de texto
-5. Hierarquia de títulos
-6. Elementos de texto
-7. Listas
-8. Imagens, vídeo e iframe
-9. Links e tabelas
-10. Layout semântico
-11. Formulário GET
-12. Formulário POST
+- Estrutura e metadados de documentos HTML5
+- Semântica de texto, títulos e listas
+- Imagens, vídeo, iframe, links e tabelas
+- Layout semântico
+- Formulários GET e POST
+- Agrupamento com `fieldset` e `legend`
+- Tipos de entrada, validações e preferências
+- Associação acessível entre rótulos e campos
 
 ### Como visualizar
 
-Abra index.html no navegador ou use a extensão Live Server no VS Code. O projeto também pode ser publicado diretamente com GitHub Pages.
+Abra `index.html` no navegador ou use a extensão Live Server no VS Code. O índice oferece acesso às 19 lições.
 
 ### Observação
 
@@ -31,9 +27,9 @@ Os formulários são demonstrativos e não enviam dados para um servidor real. O
 
 ## English
 
-A reviewed sequence of academic exercises documenting the progression of HTML fundamentals. The lessons begin with the basic document structure and advance through semantics, media, tables, and forms.
+A reviewed sequence of 19 academic exercises documenting the progression of HTML fundamentals. The lessons begin with basic document structure and advance through semantics, media, tables, forms, native validation, and accessibility.
 
-Open index.html in a browser or use the Live Server extension in VS Code. The project is also ready for GitHub Pages.
+Open `index.html` in a browser or use the Live Server extension in VS Code. The index links to every lesson.
 
 ## Author
 
