@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição 15 | Tipos de entrada</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a class="back-link" href="../index.html">← Voltar às lições</a>
+        <h1>Tipos de entrada em formulários</h1>
+        <p class="lead">Uso de e-mail, telefone, número, cor, intervalo, horário e área de texto.</p>
+    </header>
+    <main>
+        <form class="example" action="#" method="post">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" autocomplete="name" required>
+
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="seuemail@exemplo.com">
+
+                <label for="telefone">Telefone</label>
+                <input id="telefone" name="telefone" type="tel" autocomplete="tel" placeholder="61999997070" pattern="[0-9]{10,11}">
+
+                <label for="ano-nascimento">Ano de nascimento</label>
+                <input id="ano-nascimento" name="ano_nascimento" type="number" min="1910" max="2026">
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferências</legend>
+                <label for="cor">Cor favorita</label>
+                <input id="cor" name="cor" type="color" value="#2457d6">
+
+                <label for="interesse">Nível de interesse em tecnologia</label>
+                <input id="interesse" name="interesse" type="range" min="0" max="10" step="1" value="5">
+
+                <label for="despertar">Horário para despertar</label>
+                <input id="despertar" name="despertar" type="time">
+
+                <label for="sobre">Fale um pouco sobre você</label>
+                <textarea id="sobre" name="sobre" rows="6" maxlength="200"></textarea>
+            </fieldset>
+
+            <button type="submit">Salvar</button>
+        </form>
+    </main>
+    <footer>Lição 15 de 19.</footer>
+</body>
+</html>
