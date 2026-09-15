@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição 14 | Validação de formulário</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a class="back-link" href="../index.html">← Voltar às lições</a>
+        <h1>Validação nativa de formulário</h1>
+        <p class="lead">Evolução do cadastro com campos obrigatórios, limites e foco automático.</p>
+    </header>
+    <main>
+        <form class="example" action="#" method="get">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="cpf">CPF</label>
+                <input id="cpf" name="cpf" type="text" inputmode="numeric" required autofocus>
+
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" maxlength="30" autocomplete="name" required>
+
+                <label for="nome-mae">Nome da mãe</label>
+                <input id="nome-mae" name="nome_mae" type="text">
+
+                <label for="nome-pai">Nome do pai</label>
+                <input id="nome-pai" name="nome_pai" type="text">
+
+                <label for="nascimento">Data de nascimento</label>
+                <input id="nascimento" name="nascimento" type="date" min="1901-01-01" max="2026-12-31">
+
+                <label for="estado-civil">Estado civil</label>
+                <select id="estado-civil" name="estado_civil">
+                    <option value="">Selecione</option>
+                    <option value="casado">Casado(a)</option>
+                    <option value="solteiro">Solteiro(a)</option>
+                    <option value="viuvo">Viúvo(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferências</legend>
+                <p>Forma de trabalho preferida</p>
+                <div class="options">
+                    <label><input type="checkbox" name="forma_trabalho" value="home-office"> Home office</label>
+                    <label><input type="checkbox" name="forma_trabalho" value="hibrido"> Híbrido</label>
+                    <label><input type="checkbox" name="forma_trabalho" value="presencial"> Presencial</label>
+                </div>
+
+                <p>Área de interesse</p>
+                <div class="options">
+                    <label><input type="radio" name="area_interesse" value="backend" required> Desenvolvimento back-end</label>
+                    <label><input type="radio" name="area_interesse" value="frontend"> Desenvolvimento front-end</label>
+                    <label><input type="radio" name="area_interesse" value="fullstack"> Desenvolvimento full stack</label>
+                    <label><input type="radio" name="area_interesse" value="ia"> Engenharia de IA</label>
+                </div>
+            </fieldset>
+
+            <div class="actions">
+                <button type="submit">Cadastrar</button>
+                <button class="secondary" type="reset">Limpar</button>
+            </div>
+        </form>
+    </main>
+    <footer>Lição 14 de 19.</footer>
+</body>
+</html>
