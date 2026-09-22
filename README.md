@@ -4,7 +4,7 @@
 
 ## Português
 
-Sequência de exercícios acadêmicos revisados para documentar a evolução dos fundamentos de HTML. As 19 lições partem da estrutura básica de um documento e avançam até semântica, mídias, tabelas, formulários, validação nativa e acessibilidade.
+Sequência de exercícios acadêmicos revisados para documentar a evolução dos fundamentos de HTML. As 19 lições partem da estrutura básica de um documento e avançam até semântica, mídias, tabelas, formulários, validação nativa acessibilidade e os primeiros conceitos de CSS.
 
 ### Conteúdo
 
@@ -16,10 +16,12 @@ Sequência de exercícios acadêmicos revisados para documentar a evolução dos
 - Agrupamento com `fieldset` e `legend`
 - Tipos de entrada, validações e preferências
 - Associação acessível entre rótulos e campos
+- Seletores CSS de tipo, classe e ID
+- Páginas estilizadas com cores, tipografia, espaçamento e componentes
 
 ### Como visualizar
 
-Abra `index.html` no navegador ou use a extensão Live Server no VS Code. O índice oferece acesso às 19 lições.
+Abra `index.html` no navegador ou use a extensão Live Server no VS Code. O índice oferece acesso às 24 lições.
 
 ### Observação
 
@@ -29,7 +31,7 @@ Os formulários são demonstrativos e não enviam dados para um servidor real. O
 
 A reviewed sequence of 19 academic exercises documenting the progression of HTML fundamentals. The lessons begin with basic document structure and advance through semantics, media, tables, forms, native validation, and accessibility.
 
-Open `index.html` in a browser or use the Live Server extension in VS Code. The index links to every lesson.
+Open `index.html` in a browser or use the Live Server extension in VS Code. The index links to all 24 lessons.
 
 ## Author
 
